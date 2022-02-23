@@ -19,3 +19,6 @@ class EthernetFrame:
 			binascii.unhexlify(self.src.replace(":", "")),
 			self.protocol
 		)
+
+	def get_ehternet_frame(self):
+		return self.raw
